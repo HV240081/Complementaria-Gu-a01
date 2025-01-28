@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Angeles Lakers</title>
+    <link rel="stylesheet" href="lakers-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Los Angeles Lakers</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Los Angeles Lakers</h2>
+            <p>The Los Angeles Lakers are one of the most successful basketball teams in NBA history. Known for their championship legacy, star players, and a dedicated fan base, the Lakers symbolize excellence in basketball.</p>
+        </section>
+
+        <section id="players" class="players">
+            <h2>Current Players</h2>
+            <div class="player-list">
+                <div class="player">
+                    <img src="lebron.jpg" alt="LeBron James">
+                    <h3>LeBron James</h3>
+                    <p>Position: Forward</p>
+                </div>
+                <div class="player">
+                    <img src="antony.avif" alt="Anthony Davis">
+                    <h3>Anthony Davis</h3>
+                    <p>Position: Forward/Center</p>
+                </div>
+                <div class="player">
+                    <img src="dangelo.webp" alt="D'Angelo Russell">
+                    <h3>D'Angelo Russell</h3>
+                    <p>Position: Guard</p>
+                </div>
+                <div class="player">
+                    <img src="austing.webp" alt="Austin Reaves">
+                    <h3>Austin Reaves</h3>
+                    <p>Position: Guard</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="history">
+            <h2>Team History</h2>
+            <p>Established in 1947, the Lakers have won multiple NBA championships and have been home to legends like Kobe Bryant, Magic Johnson, and Shaquille O'Neal. Their iconic purple and gold colors are recognized worldwide.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Address: Crypto.com Arena, Los Angeles, CA</p>
+            <p>Email: info@lakers.com</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Los Angeles Lakers. All Rights Reserved.</p>
+    </footer>
+</body>
+<style>
+    body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #552583;
+    color: #FDB927;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FDB927;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.players .player-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.player {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.player h3 {
+    margin: 10px 0 5px;
+    color: #552583;
+}
+
+.footer {
+    background-color: #552583;
+    color: #FDB927;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+}
+
+</style>
+</html>
