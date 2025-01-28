@@ -1,0 +1,72 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Encabezado principal */
+  h1 {
+    font-size: 2.5rem;
+    color: #b89b70;
+    text-align: center;
+  }
+  
+  /* Secciones */
+  section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Imágenes centradas */
+  section img {
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #0056b3 !important;
+  }
+  
+  .nav-link {
+    color: #b89b70 !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #b89b70 !important;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #b89b70;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Ajustes responsivos */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  }
+  
